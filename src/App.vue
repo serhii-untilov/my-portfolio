@@ -235,7 +235,7 @@ export default {
       },
       facebook: 'https://www.facebook.com/s.untilov',
       linkedin: 'https://www.linkedin.com/in/сергей-унтилов-a6b3b5a9',
-      github: 'https://github.com/unclezeppelin',
+      github: 'https://github.com/sergey-untilov',
       experience: [
         {
           position: 'Programmer, team-lead',

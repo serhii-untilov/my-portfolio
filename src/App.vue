@@ -79,7 +79,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a :href="`mailto:${{email}}`">
+              <a v-bind:href="'mailto:' + email">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -217,10 +217,9 @@ export default {
   data () {
     return {
       title: 'Sergey Untilov',
-      name: 'SERGEY',
-      surname: 'UNTILOV',
+      name: 'Sergey',
+      surname: 'Untilov',
       address: 'Kyiv, Ukraine',
-      phone: '+380 067-477-99-18',
       email: 's.untilov@gmail.com',
       aboutMe: 'C/C++ programmer',
       cv: {
@@ -257,7 +256,8 @@ export default {
           company: 'Programms-BEST, Kyiv (Ukraine)',
           description: 'Developing applications for BEST-Pro accounting system',
           responsibilities: [
-            'salary calculating and HR managing software development',
+            'salary calculating software development',
+            'HR accounting software development',
             'making presentations'
           ],
           tools: 'C, C++, Visual Studio, Oracle DB, SQL Server, PowerDesigner',

@@ -133,11 +133,11 @@
             </div>
           </div>
 
-          <h4 class="subheading mb-3">Trainings:</h4>
+          <h4 class="subheading mb-3">Courses:</h4>
           <br>
 
-          <ul id="trainings_list" class="hide-bullets">
-            <li v-for="item in trainings" :key="item.startDate">
+          <ul id="courses_list" class="hide-bullets">
+            <li v-for="item in courses" :key="item.startDate">
               <div class="resume-item d-flex flex-column flex-md-row mb-5">
                 <div class="resume-content mr-auto">
                   <h3 class="mb-0">{{item.subject}}</h3>
@@ -233,7 +233,7 @@ export default {
         }
       },
       facebook: 'https://www.facebook.com/s.untilov',
-      linkedin: 'https://www.linkedin.com/in/сергей-унтилов-a6b3b5a9',
+      linkedin: 'https://www.linkedin.com/in/sergeyuntilov',
       github: 'https://github.com/sergey-untilov',
       experience: [
         {
@@ -304,11 +304,11 @@ export default {
       ],
       education: {
         university: 'Kyiv National Economic University (Ukraine)',
-        degree: 'Master of Economic Cybernetics',
+        degree: 'Master\'s degree, Economic Cybernetics',
         startDate: 'Sep 2002',
         endDate: 'Mar 2007'
       },
-      trainings: [
+      courses: [
         {
           subject: 'Python programming language',
           company: 'prometheus.org.ua, Kyiv (Ukraine)',

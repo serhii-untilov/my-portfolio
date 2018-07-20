@@ -44,15 +44,13 @@
             <a :href="`mailto:${{email}}`">{{email}}</a> -->
           </div>
           <!-- <h3 class="mb-0">{{aboutMe}}</h3> -->
-          <p class="mb-5">{{aboutMe}}</p>
+          <p class="mb-5 ml-1">{{aboutMe}}</p>
 
-          <div class="subheading mb-4">
-            <span class="mr-2 text-primary">Download:</span>
-            <a :href="cv.pdf.location" download class="ml-3">{{cv.pdf.title}}</a>
-            <a :href="cv.doc.location" download class="ml-3">{{cv.doc.title}}</a>
-            <br>
-            <br>
-            <a href="#contact" class="mr-2">CONTACT ME</a>
+          <div class="subheading mb-4 ml-1">
+            <!-- <span class="mr-2 text-primary">Download:</span> -->
+            <a :href="cv.pdf.location" download class="mr-2">{{cv.pdf.title}}
+            </a> · <a :href="cv.doc.location" download class="ml-2 mr-2">{{cv.doc.title}}
+            </a> · <a href="#contact" class="ml-2">CONTACT ME</a>
           </div>
 
           <ul class="list-inline list-social-icons mb-0">

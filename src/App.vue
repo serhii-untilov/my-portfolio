@@ -47,10 +47,12 @@
           <p class="mb-5">{{aboutMe}}</p>
 
           <div class="subheading mb-4">
-            <a href="#contact" class="mr-2">CONTACT ME</a>
-            <span class="ml-3 text-primary">Download:</span>
+            <span class="mr-2 text-primary">Download:</span>
             <a :href="cv.pdf.location" download class="ml-3">{{cv.pdf.title}}</a>
             <a :href="cv.doc.location" download class="ml-3">{{cv.doc.title}}</a>
+            <br>
+            <br>
+            <a href="#contact" class="mr-2">CONTACT ME</a>
           </div>
 
           <ul class="list-inline list-social-icons mb-0">
@@ -133,7 +135,7 @@
             </div>
           </div>
 
-          <h4 class="subheading mb-3">TRAININGS:</h4>
+          <h4 class="subheading mb-3">Trainings:</h4>
           <br>
 
           <ul id="trainings_list" class="hide-bullets">

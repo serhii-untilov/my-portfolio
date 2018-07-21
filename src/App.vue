@@ -254,10 +254,10 @@ export default {
         {
           position: 'Programmer',
           company: 'Programms-BEST, Kyiv (Ukraine)',
-          description: 'Developing applications for BEST-Pro accounting system',
+          description: 'Software development for BEST-Pro accounting system',
           responsibilities: [
-            'software development for salary calculations',
-            'HR accounting software development',
+            'applications development for salary calculations',
+            'applications development for HR accounting',
             'holding on presentations'
           ],
           tools: 'C, C++, Visual Studio, Oracle DB, SQL Server, PowerDesigner',

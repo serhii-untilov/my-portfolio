@@ -241,10 +241,10 @@ export default {
           company: 'Intellect-Service, Kyiv (Ukraine)',
           description: 'Developing solutions for IS-Pro ERP system',
           responsibilities: [
-            'developing applications for calculating salary and HR management',
-            'programming, team managing, code reviewing, making presentations',
+            'applications development for calculating salary and HR management',
+            'programming, team management, code reviewing, holding on presentations',
             'applications maintenance for compliance with legislation',
-            'developing solutions in distributed accounting system for State Fiscal Service of Ukraine',
+            'solutions development in distributed accounting system for State Fiscal Service of Ukraine',
             'developing multiprocessing procedure of batch calculating for large organizations'
           ],
           tools: 'C, C++, Visual Studio, Oracle DB, SQL Server',
@@ -256,9 +256,9 @@ export default {
           company: 'Programms-BEST, Kyiv (Ukraine)',
           description: 'Developing applications for BEST-Pro accounting system',
           responsibilities: [
-            'salary calculating software development',
+            'software development for salary calculations',
             'HR accounting software development',
-            'making presentations'
+            'holding on presentations'
           ],
           tools: 'C, C++, Visual Studio, Oracle DB, SQL Server, PowerDesigner',
           startDate: 'Feb 2003',
@@ -283,7 +283,7 @@ export default {
         {
           position: 'Programmer',
           company: 'UkrAgroExim PA, Kyiv (Ukraine)',
-          description: 'Development of software for warehouse accounting',
+          description: 'Software development for warehouse accounting',
           tools: 'Paradox RDMS',
           startDate: 'Oct 1993',
           endDate: 'Mar 1996'
@@ -293,8 +293,8 @@ export default {
           company: 'Orion Research Institute, Kyiv (Ukraine)',
           description: 'Software development',
           responsibilities: [
-            'application for salary calculating',
-            'application for an accounting of payments for electricity'
+            'application development for salary calculation',
+            'application development for an accounting of payments for electricity'
           ],
 
           tools: 'Clipper',

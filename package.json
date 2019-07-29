@@ -11,10 +11,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "devicons": "^1.8.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "popper.js": "^1.14.3",
     "prerender-spa-plugin": "^3.2.1",
@@ -64,7 +64,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

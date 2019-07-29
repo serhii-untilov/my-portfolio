@@ -237,11 +237,35 @@ export default {
       github: 'https://github.com/sergey-untilov',
       experience: [
         {
+          position: 'Product owner',
+          company: 'A5 Systems',
+          description: 'Development of the A5 Payroll project for the HRMIS',
+          responsibilities: [
+            'analysis of customer requirements',
+            'product design, project management',
+            'helping the development team to achieve their goals'
+          ],
+          tools: 'Confluence, Jira, kind words',
+          startDate: 'Feb 2019',
+          endDate: 'Present'
+        },
+        {
+          position: 'Programmer',
+          company: 'Raiffeisen Bank Aval, Kyiv (Ukraine)',
+          description: 'Core bank system development team',
+          responsibilities: [
+            'applications development and maintenance'
+          ],
+          tools: 'C, Oracle Tuxedo, Oracle DB',
+          startDate: 'Aug 2018',
+          endDate: 'Feb 2019'
+        },
+        {
           position: 'Programmer, team-lead',
           company: 'Intellect-Service, Kyiv (Ukraine)',
-          description: 'Developing solutions for IS-Pro ERP system',
+          description: 'Development solutions for the IS-Pro ERP system',
           responsibilities: [
-            'applications development for calculating salary and HR management',
+            'applications development for calculate salary and HR management',
             'programming, team management, code reviewing, holding on presentations',
             'applications maintenance for compliance with legislation',
             'solutions development in distributed accounting system for State Fiscal Service of Ukraine',
@@ -254,7 +278,7 @@ export default {
         {
           position: 'Programmer',
           company: 'Programms-BEST, Kyiv (Ukraine)',
-          description: 'Software development for BEST-Pro accounting system',
+          description: 'Software development for the BEST-Pro accounting system',
           responsibilities: [
             'applications development for salary calculations',
             'applications development for HR accounting',

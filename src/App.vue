@@ -256,7 +256,7 @@ export default {
           responsibilities: [
             'applications development and maintenance'
           ],
-          tools: 'C, Oracle Tuxedo, Oracle DB',
+          tools: 'C, Oracle Tuxedo, Oracle DB, Python',
           startDate: 'Aug 2018',
           endDate: 'Feb 2019'
         },

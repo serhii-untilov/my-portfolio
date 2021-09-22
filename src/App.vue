@@ -49,7 +49,7 @@
           <div class="subheading mb-4 ml-1">
             <!-- <span class="mr-2 text-primary">Download:</span> -->
             <a :href="cv.pdf.location" download class="mr-2">{{cv.pdf.title}}
-            </a> · <a :href="cv.doc.location" download class="ml-2 mr-2">{{cv.doc.title}}
+            <!-- </a> · <a :href="cv.doc.location" download class="ml-2 mr-2">{{cv.doc.title}} -->
             </a> · <a href="#contact" class="ml-2">CONTACT ME</a>
           </div>
 
@@ -237,6 +237,20 @@ export default {
       github: 'https://github.com/sergey-untilov',
       experience: [
         {
+          position: 'Programmer, Team lead',
+          company: 'Alliance Solution',
+          description: 'Development of the A5 Tariffication project for Educational organizations',
+          responsibilities: [
+            'analysis of customer requirements',
+            'product design, project management',
+            'programming, team management',
+            'holding on presentations'
+          ],
+          tools: 'Javascript, UnityBase, ExtJS, SQL',
+          startDate: 'Jun 2021',
+          endDate: 'present'
+        },
+        {
           position: 'Product owner',
           company: 'A5 Systems',
           description: 'Development of the A5 Payroll project for the HRMIS',
@@ -247,7 +261,7 @@ export default {
           ],
           tools: 'Confluence, Jira, kind words',
           startDate: 'Feb 2019',
-          endDate: 'Present'
+          endDate: 'Apr 2021'
         },
         {
           position: 'Programmer',
@@ -360,8 +374,13 @@ export default {
       ],
       programming_languages: [
         {
+          title: 'JavaScript',
+          level: 'Good',
+          experience: 'Electron, Node, UnityBase, React, Vue, ExtJS'
+        },
+        {
           title: 'C/C++',
-          level: 'Excellent',
+          level: 'Good',
           experience: 'StayLib, MFC, Qt'
         },
         {
@@ -378,11 +397,6 @@ export default {
           title: 'Python',
           level: 'Basic',
           experience: 'ExifRead, DBFPy, Flask, JWT'
-        },
-        {
-          title: 'JavaScript',
-          level: 'Basic',
-          experience: 'VueJS, Vuetify, JWT, PWA'
         }
       ],
       programming_tools: [

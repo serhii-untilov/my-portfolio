@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -R -f dist/* ../sergey-untilov.github.io/
+cp -R -f dist/* ../serhii-untilov.github.io/
